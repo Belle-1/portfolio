@@ -1,0 +1,164 @@
+/*  */
+.img-responsive {
+  max-width: 60%;
+  max-height: auto;
+}
+
+hr.line {
+  border-top: 1px solid #cccccc;
+  margin: 0;
+  width: 50%;
+}
+
+.product-container{
+  height: 360px;
+  width: 186px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.2);
+}
+
+.product-img {
+  width: 100%;
+  height: 226px;
+}
+
+.product-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-desc {
+  width: 166px;
+  height: 108px;
+}
+
+div.product-name {
+  font-size: 1.083333rem;
+  min-height: 32px;
+  word-break: break-all;
+  font-weight: 600;
+}
+
+div.product-price-container {
+  height: 52px;
+}
+
+.product-price {
+  margin-top: 12px;
+}
+
+.product-share-container {
+  width: 40px;
+  height: 40px;
+  right: auto;
+  left: 15px;
+}
+
+.product-share-btn {
+  border: none;
+  background: none;
+}
+
+.post-1-n{
+  top:-.25rem!important;
+}
+
+.post-2-n{
+  top:-.5rem!important;
+}
+
+.post-3-n{
+  top:-1rem!important;
+}
+
+.posr-1-n{
+  right:-.02rem!important;
+}
+
+.posr-2-n{
+  right:-.5rem!important;
+}
+
+.posr-3-n{
+  right:-1rem!important;
+}
+
+.btn-color{
+  border-radius: 50px;
+  border-width: medium;
+  border-color: #cccccc;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item{
+  box-sizing: border-box;
+  flex: 0 0 20%;
+  padding: 12px 0px 0px 12px;
+}
+
+#product-slideshow .item img{
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+ul.site-features {
+  list-style-type: none;
+}
+
+ul.site-features img {
+  width: 60px;
+  height: 60px;
+}
+
+.vl {
+  border-left: 1px solid rgba(0,0,0,.1);
+  height: 100%;
+  position: absolute;
+}
+
+.table-hr {
+  border-top: 3px solid rgba(0,0,0,.1);
+}
+
+.shopping-cart-img div.item {
+  height: 110px;
+  width: 80px;
+  padding: 0;
+}
+
+.shopping-cart-img div.item img {
+  height: auto;
+  width: 100%;
+}
+
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+table>tbody>tr.border-bottom{
+  border-bottom: 2px solid #D3D3D3;
+}
+
+.bg-e9ecef {
+  background-color: #e9ecef;
+}
+
+.status-btn {
+  pointer-events: none;
+}
+/*  */

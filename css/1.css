@@ -1,0 +1,347 @@
+html{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+body{
+	margin:0;
+}
+
+h1{
+	font-size:2em;
+	margin: 0px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+h2, h3, h4 {
+	margin: 0;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+.card {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+
+.middle-div {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.center-div {margin: 0 auto;}
+.center {text-align: center !important;}
+.middle {vertical-align: middle !important;}
+
+.div-width-45 {width: 45%;}
+.div-width-60 {width: 60%;}
+.div-width-75 {width: 75%;}
+
+/* fonts */
+.raleway {font-family: 'Raleway', sans-serif;}
+.roboto{font-family: 'Roboto', sans-serif;}
+
+/* Letter spacing */
+.ls-1 {letter-spacing: 1.5px;}
+.ls-2 {letter-spacing: 3px;}
+
+/* Font weights */
+.fw-1 {font-weight:100 !important;}
+.fw-2 {font-weight:200 !important;}
+.fw-3 {font-weight:300 !important;}
+.fw-4 {font-weight:400 !important;}
+.fw-5 {font-weight:500 !important;}
+.fw-5 {font-weight:600 !important;}
+.fw-7 {font-weight:700 !important;}
+
+.light {font-weight: 300 !important;}
+
+.huge-1 {
+    font-size: 5.4rem;
+	margin: 0;
+	letter-spacing: -2px;
+}
+
+.huge-2 {
+    font-size: 4.4rem;
+	margin: 0;
+	letter-spacing: -2px;
+}
+
+.huge-3 {
+    font-size: 3.4rem;
+	margin: 0;
+	letter-spacing: -2px;
+}
+
+.huge-4 {
+    font-size: 2.2rem;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+.huge-5 {
+    font-size: 1.5rem;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+
+/* Bootstrap */
+.mr-1, .ml-1 {margin-right: 0.25rem !important;}
+.mt-3, .ml-3 {margin-top: 1rem !important;}
+.mt-4 {margin-top: 2rem !important;}
+
+/* FROM: normalize.css v3.0.1 | MIT License | git.io/normalize */
+.mega-ns{
+	font-size:8vw;
+}
+
+.f1-ns{
+	font-size:6vw;
+}
+
+.lh{
+	line-height:1.6;
+	margin: 0;
+}
+
+/* time line */
+.chart-container {
+	position: absolute;
+	height:100%;
+	width:50%;
+	bottom: 10;
+}
+.time-line {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	border-bottom: .3px solid #aaa;
+}
+
+.text-line {
+	position: absolute;
+	width: 10px;
+	border-left: 1.5px dashed gray;
+	bottom: 0px;
+}
+
+.text-line-year {
+	position: absolute;
+	width: 10px;
+	bottom: 0px;
+}
+
+.text-line-Line {
+	position: absolute;
+	width: 10px;
+	border-left: 2px solid gray;
+	bottom: 0px;
+	height: 120px;
+}
+
+.point-Line {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: -30px;
+	left: -190%;
+}
+
+.point-line-year {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	bottom: -8.5px;
+	left: -8.5px;
+}
+
+.point-line-lg {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	bottom: -4px;
+	left: -4px;
+}
+
+.point-line-sm {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	bottom: -2.5px;
+	left: -2.5px;
+}
+
+.text {
+	position: absolute;
+	top: -25px;
+	width: 81px;
+	text-align: center;
+	left: -400%;
+}
+
+.text-year {
+	position: absolute;
+	bottom: -33px;
+	width: 80px;
+	text-align: center;
+	left: -400%;
+}
+
+/* text line heights */
+.h-4 {height: 30px;}
+.h-6 {height: 55px;}
+.h-8 {height: 75px;}
+
+/* text line positioning */
+.p-2016 {left: 0.09%;}
+.p-2017 {left: 50%;}
+.p-2018 {left: 100%;}
+.application-position {left: 47%;}
+
+/* positions */
+.p-1 {left: 5%;}
+.p-2 {left: 10%;}
+.p-3 {left: 15%;}
+.p-4 {left: 20%;}
+.p-5 {left: 25%;}
+
+/* points month positioning */
+.month-1 {left: 4.166%;}
+.month-2 {left: 8.333%;}
+.month-3 {left: 12.499%;}
+.month-4 {left: 16.666%;}
+.month-5 {left: 20.833%;}
+.month-6 {left: 24.999%;}
+.month-7 {left: 29.166%;}
+.month-8 {left: 33.332%;}
+.month-9 {left: 37.499%;}
+.month-10 {left: 41.666%;}
+.month-11 {left: 45.832%;}
+.month-12 {left: 54.165%;}
+.month-13 {left: 58.332%;}
+.month-14 {left: 62.499%;}
+.month-15 {left: 66.665%;}
+.month-16 {left: 70.832%;}
+.month-17 {left: 74.98%;}
+.month-18 {left: 79.165%;}
+.month-19 {left: 83.332%;}
+.month-20 {left: 87.498%;}
+.month-21 {left: 91.665%;}
+.month-22 {left: 95.831%;}
+
+.first-year-1 {left: 3%;}
+.first-year-2 {left: 8.333%;}
+.first-year-3 {left: 16%;}
+.first-year-4 {left: 24%;}
+.first-year-5 {left: 33%;}
+.first-year-6 {left: 41%;}
+.second-year-1 {left: 51%;}
+.second-year-2 {left: 64%;}
+.second-year-3 {left: 70%;}
+.second-year-4 {left: 77%;}
+.second-year-5 {left: 85%;}
+
+/* grid */
+.grid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  padding: 10px;
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.grid-item--width1{width: 65px;} 
+.grid-item--width2{width: 130px;} 
+
+/* grid items on hover */
+.grid-item-hover {
+	width: 130px !important;
+	height: 55px !important;
+}
+.a{background: rgba(2, 119, 188, 0.6);}
+.b{background: rgba(75, 179, 253, 0.6);}
+.c{background: rgba(185, 210, 177, 0.6);}
+.d{background: rgba(204, 197, 158, 0.6);}
+.e{background: rgba(240, 80, 51, 0.6);}
+.f{background: rgba(110, 224, 140, 0.6);}
+.g{background: rgba(37, 36, 34, 0.6);}
+.h{background: rgba(127, 149, 209, 0.6);}
+.i{background: rgba(201, 239, 43, 0.6);}
+.j{background: rgba(240, 218, 80, 0.6);}
+.k{background: rgba(1, 112, 186, 0.6);}
+.l{background: rgba(93, 63, 135, 0.6);}
+.m{background: rgba(19, 109, 179, 0.6);}
+.n{background: rgba(26, 184, 138, 0.6);}
+.o{background: rgba(235, 130, 88, 0.6);}
+.p{background: rgba(151, 119, 168, 0.6);}
+.q{background: rgba(191, 67, 66, 0.6);}
+.r{background: rgba(171, 158, 190, 0.6);}
+.s{background: rgba(40, 171, 225, 0.6);}
+
+@media screen and (max-width:720px){
+	.text {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:414px){
+	.huge-1 {
+	    font-size: 4.4rem;
+			margin: 0;
+			letter-spacing: -2px;
+	}
+
+	.huge-3 {
+	    font-size: 2.2rem;
+			margin: 0;
+			letter-spacing: 1px;
+	}
+
+	.div-width-45 {
+		width: 83%;
+	}
+
+	.text {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width:1440px){
+	.chart-container {
+		bottom: 50px;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.chart-container {
+		bottom: -30px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.chart-container {
+		bottom: -80px;
+	}
+}
+
+@media screen and (max-width:700px){
+	.chart-container {
+		display: none;
+	}
+}
